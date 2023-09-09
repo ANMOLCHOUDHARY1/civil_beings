@@ -1,0 +1,316 @@
+/* font-family: 'Borel', cursive;
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif; */
+
+@font-face {
+    font-family: myDownlodedFonts;
+    src: url(../Fonts/Trade_Winds/TradeWinds-Regular.ttf);
+}
+
+/* Universal Font */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: myDownlodedFonts;
+}
+
+/* body */
+body{
+    background-color: white;
+    margin: 0px;
+}
+
+.uni-padding{
+    padding: 0 7%;
+}
+
+/* topbar */
+#topbar{
+    background-color: gray;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#tollfree{
+    color: white;
+    float: left;
+    margin-top: 5px;
+    font-size: 20px;
+}
+#social-icon{
+    float: right;
+}
+.fa-brands{
+    background-color: white;
+    border-radius: 50%;
+    padding: 7px;
+    color: gray;
+}
+.fa-facebook-f{
+    padding: 8px 9px;
+}
+.fa-whatsapp{
+    padding: 8px 7px;
+}
+.fa-twitter{
+    padding: 7px 8px;
+}
+.fa-instagram{
+    padding: 7px 8px;
+}
+
+/* Logo Bar */
+#logobar img{
+    width: 100px;
+    height: 100px;
+    margin: 25px 0px;
+}
+
+/* navigation bar */
+#navbar{
+    background-color: brown;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 40px;
+    margin-left: 0px;
+}
+#navbar ul{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* banner */
+#poster{
+    background-image: url(../Images/BannerLaptop.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Why US */
+#whysection{
+    overflow: auto;
+    margin-bottom: 50px;
+
+}
+.red-heading{
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+}
+.section33 h2{
+    color: red;
+}
+.section33 p{
+    color: #363633;
+}
+.section33 img{
+    height: 100px;
+    width: 100px;
+}
+
+/* Contact Section */
+#contact-section{
+    background-color: brown;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.section70{
+    float: left;
+    width: 70%;
+}
+.section30{
+    padding-top: 70px;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+#contact-btn{
+    background-color: white;
+    text-decoration: none;
+    color: red;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 50px;
+}
+
+/* blog section */
+.section33 a{
+    font-family: myDownlodedFonts;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+.section33 img{
+    width: 100%;
+}
+
+/* subscribe section */
+#subscribe-section{
+    background-color: red;
+    color: white;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section50{
+    width: 50%;
+    float: left;
+}
+.section50 h2{
+    font-size: 27px;
+    text-align: right;
+    padding-right: 50px;
+}
+.section50 form{
+    padding-top: 25px;
+}
+.section50 input[type="text"]{
+    padding:10px 15px;
+    font-size: 15px;
+    color: red;
+    margin-right: 20px;
+    border: 0px;
+    width: 45%;
+}
+.section50 input[type="submit"]{
+    padding-top: 8px 35px;
+    font-size: 15px;
+    color: red;
+    border: 0px;
+}
+
+/* footer */
+#imp-link{
+    background-color: gray;
+    color: white;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 25px 50px;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 2px;
+    font-weight: normal;
+}
+#footer-menu{
+    list-style-type: none;
+    padding:0px;
+}
+#footer-menu li{
+    padding-bottom: 7px;
+}
+#footer-menu li a{
+    text-decoration:none;
+    color: white;
+}
+#copyright{
+    background-color: rgb(3, 3, 109);
+    text-align: center;
+    color: rgb(245, 240, 240);
+    padding:10px;
+}
+
+/* Responsive for Ipad ... 768px width  */
+@media only screen and (max-width:768px){
+    #navbar ul li {
+        padding-right: 20px;
+    }
+    .section70 {
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    #contact-btn {
+        padding: 15px 20px;
+    }
+}
+
+/* Responsive for Mobile */
+
+@media only screen and (max-width:500px){
+    #tollfree {
+        font-size: 12px;
+    }
+    #social-icon {
+        font-size: 12px;
+    }
+    #logobar{
+        text-align: center;
+    }
+    #poster h1 {
+        font-size: 28px;
+    }
+    #poster p {
+        font-size: 12px;
+    }
+    #poster {
+        height: 200px;
+    }
+    .section33, .section30 , .section50 , .section70 , .div33 {
+        width: 100%;
+    }
+    .section70{
+        text-align: center;
+    }
+    .section30{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .section33 a{
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+    .section50 h2{
+        text-align: center;
+        padding-right: 0px;
+    }
+    .div33{
+        text-align: center;
+        padding-right: 25px 20px;
+    }
+}
+
+
+
+
+
+
+
